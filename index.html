@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zhangbingyi</title>
+    <script type="text/javascript">
+      function menuSelect (para) {
+        let title = para
+        title = title.charAt(0).toUpperCase() + title.slice(1)
+        document.getElementById('home').classList.remove('selected')
+        document.getElementById('experience').classList.remove('selected')
+        document.getElementById('video').classList.remove('selected')
+        document.getElementById('future').classList.remove('selected')
+        document.getElementById(para).classList.add('selected')
+        document.title = title
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Zhang Bingyi</h1>
+      <h3>University Putra Malaysia</h3>
+      <nav>
+        <ul>
+          <li>
+            <a
+              id="home"
+              href="#Home"
+              class="selected"
+              onclick="menuSelect('home');"
+              >Home</a
+            >
+          </li>
+
+          <li>
+            <a
+              id="experience"
+              href="#Experience"
+              onclick="menuSelect('experience');"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <a id="video" href="#Video" onclick="menuSelect('video');">Video</a>
+          </li>
+          <li>
+            <a id="future" href="#Future" onclick="menuSelect('future');"
+              >Future</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="slab" id="Home">
+        <img id="head" src="media/head.jpg" width="300px" />
+        <div id="aboutme">
+          <h3>About Me</h3>
+          Hi，my name is Zhang bingyi. I’m 19 years old. And I come from China
+          ,HeBei. I ‘m under graduate Teaching English as second language
+          faculty of education in the UPM. And my passion are writing,swimming
+          and playing the instruments. I am also capabilities and skills that
+          writing brush calligraphy,swimming and playing the piano. I’m
+          creative,hard working and ambitions. My GPA reached 91/100 in Hebei
+          Handan No.7 High School.
+        </div>
+      </div>
+      <div class="slab" id="Experience">
+        <ul>
+          <li>
+            <h4>Experience</h4>
+            <p>
+              I volunteered in a nursing home when I was in high school. And we
+              took a lot of fruit to visit the old people in the nursing home,
+              and then we chatted with the old people together. Finally, we were
+              responsible for cleaning the nursing home.Then I worked as a
+              librarian in the library. I am in charge of helping guests who are
+              having trouble finding books. And I also need to tidy up my books
+              before I leave work. Finally, I was responsible for the
+              cashier.Finally, I went to a hotpot restaurant as a waiter in
+              charge. I need to manage and assign waiters' work on a daily basis
+              and ensure that it is done to the standard of the restaurant. I
+              also need to serve and solicit guests.These work experiences have
+              made me patient, passionate, and know how to effectively manage
+              distribution.
+            </p>
+          </li>
+          <li>
+            <h4>Teaching</h4>
+            <p>
+              When I was in high school I taught my cousin high school chemistry
+              organic chemistry and ion concentration equations.In the summer
+              vacation of high school, I taught my cousin English and chemistry
+              in the third grade. As I won the second prize in the national
+              chemistry competition, I was sometimes asked by the teacher to
+              give chemistry lessons.I used to be a swimming coach at a swimming
+              pool to teach kids how to swim. I once won the second place in the
+              youth group of the swimming competition in Handan City.
+            </p>
+          </li>
+          <li>
+            <h4>My opinion</h4>
+            <p>
+              In fact, you find that I am good at science. And my language
+              ability is not very good. I also know clearly that my language
+              expression ability and language learning ability are not good.
+              Therefore, I think I need to choose English education major in
+              order to overcome my weaknesses and make myself more perfect. Only
+              in this way can I better teach the knowledge and thinking I have
+              learned to students, and more people can understand my thinking.
+              Moreover,I think my value is reflected in my experience and
+              learning. I have worked in the service industry, so I think I have
+              good manners and patience, and I often do physical exercises,
+              which also makes me have a tenacious will, and also makes me have
+              a positive and brave personality to face difficulties.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="slab" id="Video">
+        <video class="video" controls src="media/video.mp4"></video>
+      </div>
+      <div class="slab" id="Future">
+        <h4>Future</h4>
+        In the future, I hope to achieve academic results through my own
+        teaching ideas and methods, and to change the modern education system
+        and philosophy through successful practice.In the future, I need to be
+        able to persuade and educate students through each other's hearts.I know
+        there will be many setbacks along the way. Because an event is risky and
+        difficult. I will go down the road even if it is difficult, because I
+        have chosen the path and I will do my best to do it. Finally I have
+        ambition and passion to make academic achievements in my future teaching
+        field.
+      </div>
+    </main>
+    <div class="footer">
+      Contact: 1909905151@qq.com
+    </div>
+  </body>
+</html>
