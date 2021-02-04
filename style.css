@@ -99,6 +99,9 @@ video{
 #Video{
   text-align: center;
 }
-#Future, #Opinion{
-  font-size: 20px;
+#Future{
+  font-size: 30px;
 }
+#Opinion{
+  font-size: 28px;
+}   
