@@ -85,20 +85,20 @@ video{
 }
 #head{
   display:inline-block;
-  margin-top:100px;
+  margin-top:50px;
   margin-bottom: 70px;
   margin-left:200px;
 }
 #aboutme{
-  font-size: 35px;
+  font-size: 30px;
   text-align: left;
 }
 #Experience{
-  font-size: 22px;
+  font-size: 18px;
 }
 #Video{
   text-align: center;
 }
 #Future{
-  font-size: 30px;
+  font-size: 20px;
 }
